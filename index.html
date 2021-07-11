@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="widht=device-width, initial-scale=1">
+	<meta name="viewport" content="widht=device-width, initial-scale=1", maximum-scale=1, user-scalable=no">
 	<title>Anak Agung Made Semara Putra</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css"
@@ -46,7 +46,7 @@
 	</header>
 
 	<!-- banner -->
-	<section class="banner">
+	<section id="gambarbackground" class="banner">
 		<h2>HALLO</h2>
 	</section>
 
@@ -102,6 +102,8 @@
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$(".bg-loader").hide();
+			// $("#gambarbackground").scroll()
+			document.getElementById("gambarbackground").scrollIntoView()
 		})
 	</script>
 </body>
